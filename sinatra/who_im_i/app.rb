@@ -1,8 +1,9 @@
 require "sinatra"
 
-# get '/rocks' do
-#   "Hello rocks"
-# end
+get '/rocks' do
+  "Hello rocks"
+end
+
 #
 # get '/angie' do
 #   "hola soy angie"
