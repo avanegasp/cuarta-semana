@@ -1,6 +1,5 @@
 # Gran Ejemplo de un sistema
 
-
 module Hello  # modules agrupa metodos Como comportamientos
   def ask
     "?"
@@ -31,8 +30,8 @@ module MakeIt  # modules are used to create namespaces
     include Hello  # Los modulos pueden sen incluidos
 
     attr_reader :name
-    def initialize(args = {})
-      @name = args[:name] || "Nameless Teacher"  # Agregar valores por defecto
+    def initialize(name)
+      @name = name   # Agregar valores por defecto
     end
 
     def to_s
@@ -49,7 +48,7 @@ module MakeIt  # modules are used to create namespaces
   class Student < Person  # Otra vez herencia
     attr_reader :name
 
-    def initialize(name)
+    def initialize(name= nil)
       @name = name || "New Student"
     end
 
