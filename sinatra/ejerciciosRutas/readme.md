@@ -16,8 +16,7 @@ Miremos un ejemplo de ruta Dinámica
 de un parámetro (name) en la ruta y muestrálo en la vista 'index'
 2.Ahora salúdalo pero con nombre y apellido en la ruta y muestrálo
 en una vista que se llame 'nombre'
-3.Ahora muestrános tu súper héroe favorito, dinos como se llama y coloca
-una imagen en una vista que se llame 'superheroe'
+3.Ahora muestrános tu súper héroe favorito, dinos como se llama y coloca una imagen en una vista que se llame 'superheroe'
 
 Ejercicio #3
 crear un aplicación Web usando Sinatra que reciba un nombre en la URL (como parámetro) y muestre un mensaje de bienvenida con el valor de ese parámetro, si es igual a tu nombre debe decir "Hola "tu nombre"", de lo contrario debe decir "Hola Desconocido"
